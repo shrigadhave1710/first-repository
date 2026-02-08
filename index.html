@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     
+    <title>Train Booking Form</title>
+ </head>
+ <body>
+    <h2>Train Booking Form</h2>
+    <form> 
+        <label for="name"> Enter your name:</label>
+        <input  type="text" id="name" required ><br><br>
+
+        <label for="email">Enter email:</label>
+        <input type="email" id="email" required > <br><br>
+
+        <label for="date">Date of Birth:</label><br>
+        <input type="date" id="date"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male<br>
+        <input type="radio" name="gender"> Female<br>
+        <input type="radio" name="gender"> Other<br><br>
+
+        <label>Train Class:</label><br>
+        <select>
+            <option>Select Class</option>
+            <option>Sleeper</option>
+            <option>AC 3 Tier</option>
+            <option>AC 2 Tier</option>
+            <option>First Class</option>
+        </select><br><br>
+
+        <label>Additional Facilities:</label><br>
+        <input type="checkbox"> Meal<br>
+        <input type="checkbox"> Bed Roll<br>
+        <input type="checkbox"> Travel Insurance<br><br>
+
+        <label>Upload ID Proof:</label><br>
+        <input type="file" accept="image/*"><br><br>
+
+        <input type="submit" value="Book Ticket">
+        <input type="reset" value="Reset">
+
+    </form>
+
+
+ </body>
+ </html>
